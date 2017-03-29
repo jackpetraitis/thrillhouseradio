@@ -3,7 +3,7 @@
 <xsl:template match = "/iceresponse" >
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>Icecast Streaming Media Server</title>
+	<title>Thrillhouse Radio</title>
 	<link rel="stylesheet" type="text/css" href="/style.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 </head>

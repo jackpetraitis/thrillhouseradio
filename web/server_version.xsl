@@ -3,7 +3,7 @@
 <xsl:template match = "/icestats">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>Icecast Streaming Media Server</title>
+	<title>Thrillhouse Radio</title>
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 </head>
@@ -57,7 +57,7 @@
 				<tr>
 					<td>Stream Directory</td>
 					<td><a href="http://dir.xiph.org/index.php">dir.xiph.org</a></td>
-				</tr>
+				</tr>F
 				<tr>
 					<td>Community</td>
 					<td><a href="http://icecast.org/community.php">icecast.org/community.php</a></td>
