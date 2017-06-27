@@ -21,7 +21,7 @@
 			<li><a href="admin/">Administration</a></li>
 			<li><a href="status.xsl">Server Status</a></li>
 			<li><a href="server_version.xsl">Version</a></li>
-			<li><a href="http://pleasetunein.com" target="_blank">Check Out My Blog</a></li>
+			<li><a href="http://www.pleasetunein.com" target="_blank">Check Out My Blog</a></li>
 		</ul>
 	</div>
 	<!--end index header menu -->
