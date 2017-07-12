@@ -18,6 +18,21 @@
 						   <xsl:value-of select="." />
 						</h3>
 					</xsl:for-each>
+					<xsl:for-each select="album">
+						<h2 class="tags custom-playlist-tag">
+						   <xsl:value-of select="name()" />
+						   -
+						   <xsl:value-of select="." />
+						</h2>
+					</xsl:for-each>
+					<xsl:for-each test="genre">
+						<h3 class="tags custom-playlist-tag">
+							<!--Playlist/Album: - -->
+							<xsl:value-of select="name()" />
+							-
+							<xsl:value-of select="." />
+						</h3>
+					</xsl:for-each>
 					<xsl:for-each select="title">
 						<h3 class="tags custom-title-tag">
 						   <xsl:value-of select="name()" />

@@ -28,6 +28,7 @@
 	<xsl:text disable-output-escaping="yes">
 	&lt;!-- WARNING:
 	 DO NOT ATTEMPT TO PARSE ICECAST HTML OUTPUT!
+	 Suck my ass -@papajack
 	 The web interface may change completely between releases.
 	 If you have a need for automatic processing of server data,
 	 please read the appropriate documentation. Latest docs:
