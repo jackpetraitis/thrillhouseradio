@@ -3,7 +3,22 @@
 <xsl:template match = "/icestats">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>Thrillhouse Radio</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<title>
+		<xsl:for-each select="source">
+		<xsl:choose>
+			<xsl:when test="listeners">
+		<xsl:for-each select="artist">
+			   <xsl:value-of select="." />
+			   -
+		</xsl:for-each>
+		<xsl:for-each select="title">
+			   <xsl:value-of select="." />
+		</xsl:for-each>
+		</xsl:when>
+		</xsl:choose>
+	</xsl:for-each>
+	</title>
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 </head>
@@ -156,6 +171,16 @@
 
 		function reloadIFrame2() {
 		 document.getElementById('my_pleb_frame').src = document.getElementById('my_pleb_frame').src; 
+		}
+
+		window.setInterval("reloadTitle();", 16000);
+
+		function reloadTitle() {
+		  $.get('status_iframe.xsl', null, function(text){
+		      var songName = $(text).find('#songName').html();
+		      var artistName = $(text).find('#artistName').html();
+		      document.title = artistName + " - " + songName;
+		  });
 		}
 
 	</script>

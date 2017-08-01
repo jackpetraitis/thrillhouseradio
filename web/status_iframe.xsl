@@ -15,7 +15,7 @@
 						<h3 class="tags custom-artist-tag">
 						   <xsl:value-of select="name()" />
 						   -
-						   <xsl:value-of select="." />
+						   <span id="artistName"><xsl:value-of select="." /></span>
 						</h3>
 					</xsl:for-each>
 					<xsl:for-each select="album">
@@ -25,7 +25,7 @@
 						   <xsl:value-of select="." />
 						</h2>
 					</xsl:for-each>
-					<xsl:for-each test="genre">
+					<xsl:for-each select="album">
 						<h3 class="tags custom-playlist-tag">
 							<!--Playlist/Album: - -->
 							<xsl:value-of select="name()" />
@@ -37,7 +37,7 @@
 						<h3 class="tags custom-title-tag">
 						   <xsl:value-of select="name()" />
 						   -
-						   <xsl:value-of select="." />
+						   <span id="songName"><xsl:value-of select="." /></span>
 						</h3>
 					</xsl:for-each>
 					<xsl:for-each select="album">
