@@ -5,17 +5,22 @@ Might link up with song artist/album art info pusher app I also downloaded
 Add a todo list with following items
 
 * TO-DO List
+
+* Thrillhouserad.io v2 Goals
 	+ Guest DJs
-	+ Crowdsourced Song Choosing Via Tweets
-	+ Selected Access Guest Control over HTTP
-	+ Upload your songs!
+	+ Selected Guest Control via HTTPS
 	+ Browse the library and add a request to play
-	+ Auto-update youtube-dl lists from time to time
-	+ Auto-fix metatags with mp3tag, taking consideration for %artist%- %title, %artist (en dash) %title, and %artist-%title
+	+ Crowdsourced Song Choosing Via Tweets
+	+ Auto-updating youtube-dl lists from time to time
 	+ Create a list of the 10 most recently played songs, requires a light DB backend
 	+ Create another mountpoint with just rap music
-
-
+	+ updated Material Design UI
+* Thrillhouserad.io v3 Musings
+	+ Auto-fix metatags with mp3tag, taking consideration for %artist%- %title, %artist (en dash) %title, and %artist-%title
+	+ Android app with Bluetooth audio and controls
+	+ iPhone app with Bluetooth audio and controls
+	+ Upload your songs!
+	+ hopefully ditching the .xsl files at some point for something easier to configure
 
 
 
@@ -24,6 +29,10 @@ Add a todo list with following items
 
 
 CHANGELOG
+
+* Did today 8/1/2017
++ configured Title element with javascript to update with the song and artist information
++ tweaked site metadata information with title changes until it worked well with my car's bluetooth
 
 * Did today 12/29
 + configured icecast
