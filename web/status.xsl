@@ -19,6 +19,7 @@
 		</xsl:choose>
 	</xsl:for-each>
 	</title>
+<script src="https://www.googletagmanager.com/gtag/js?id=UA-46438048-4"></script>
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 </head>
@@ -184,6 +185,13 @@
 		}
 
 	</script>
+	<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-46438048-4');
+</script>
 </body>
 </html>
 </xsl:template>
