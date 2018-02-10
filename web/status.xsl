@@ -158,6 +158,21 @@
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:for-each>
+	<div id="my-sham-of-pics">
+		<h2> Current Playlist </h2>
+		<img src="img/your mom (1).png"/><br/>
+		<img src="img/your mom (3).png"/><br/>
+		<img src="img/your mom (4).png"/><br/>
+		<img src="img/your mom (5).png"/><br/>
+		<img src="img/your mom (6).png"/><br/>
+		<img src="img/second_run (0).png"/><br/>
+		<img src="img/second_run (1).png"/><br/>
+		<img src="img/second_run (2).png"/><br/>
+		<img src="img/second_run (3).png"/><br/>
+		<img src="img/second_run (4).png"/><br/>
+		<img src="img/second_run (5).png"/><br/>
+		<img src="img/second_run (6).png"/><br/>
+	</div>
 	<div id="footer">
 		<em>This <a href="http://www.icecast.org">icecast</a> installation has been heavily customized and continues to be in development.</em>
 	</div>
