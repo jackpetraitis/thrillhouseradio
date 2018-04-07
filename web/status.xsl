@@ -30,6 +30,7 @@
 		</div>
 		
 		<h1 id="header">Welcome to Thrillhouse Radio v1</h1>
+		<h5><em>Radio service was down for past 3 weeks (3/14/18 - 4/6/18) due to server port changing on me</em></h5>
 	</header>
 	<!--index header menu -->
 	<div id="menu">

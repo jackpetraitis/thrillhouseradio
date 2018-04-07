@@ -241,6 +241,9 @@ header h1 {
 	margin-right: auto;
 	text-align: center;
 }
+h5 {
+	text-align: center;
+}
 
 
 a[href="http://pleasetunein.com"]:after {
